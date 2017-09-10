@@ -1,0 +1,19 @@
+$color:yellow;
+
+@for $i from 1 through 20{
+.m-t-#{$i * 5} {
+  margin-top:5px * $i !important;
+}
+
+.m-1-#{$i * 5} {
+  margin-left:5px * $i !important;
+}
+
+.m-r-#{$i * 5} {
+  margin-bottom:5px * $i !important;
+}
+
+.m-b-#{$i * 5} {
+  margin-right:5px * $i !important;
+  }
+}

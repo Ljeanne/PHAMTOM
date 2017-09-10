@@ -1,0 +1,431 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "_variable";
+@import "_mixins";
+
+
+nav{
+    margin-bottom: 0px;
+    li{
+      a{
+    color:rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+a{
+  text-decoration: none;
+}
+
+.img-01 {
+  width: 40%;
+  margin-left: 40%;
+  margin-top: 20%;
+  position: absolute;
+}
+.img-02 {
+  width: 20%;
+  height: 350px;
+}
+.img-03 {
+  width: 80%;
+  height: 350px;
+  position: absolute;
+}
+.img-04 {
+  margin-left: 74%;
+  height: 350px;
+  position: absolute;
+}
+.section-1{
+  background: #eff2f6;
+  height: 900px;
+  width: 65%;
+
+}
+.carre {
+  width: 40%;
+  height: 900px;
+  background: #ff343d;
+  margin-left: 60%;
+  position: absolute;
+}
+.titre{
+  font-family: "Myriad Pro";
+  position: absolute;
+  top: 220px;
+  font-size: 50px;
+  left: 100px;
+}
+.soustitre{
+  font-family: "Myriad Pro";
+  position: relative;
+  top: 30px;
+  margin-left: 100px;
+}
+.Tap-to-fly2{
+  font-family: "Myriad Pro";
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 105px;
+  font-size: 10px;
+
+}
+.rond {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  background: white;
+  margin-left: 46%;
+  margin-top: 220px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 300px;
+}
+.Tap-to-fly {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 8%;
+  font-family: Myriad Pro;
+  font-weight: lighter;
+  font-size: 25px;
+}
+.feature {
+  text-align: center;
+  font-family: Myriad Pro;
+  font-weight: lighter;
+  margin-top: 30px;
+  font-size: 30px;
+}
+.copyright {
+  text-align: center;
+  font-family: Myriad Pro;
+  font-weight: lighter;
+  position: absolute;
+  color: white;
+}
+.startujourney {
+  text-align: center;
+  font-family: Myriad Pro;
+  font-weight: lighter;
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  margin-top: 300px;
+}
+.icone-feature{
+  text-align: center;
+  height: 15px;
+  padding-bottom: 20%;
+}
+
+.ico{
+  text-align: center;
+  padding: 50px;
+}
+.black-block {
+  background: rgba(0, 0, 0, 0.25);
+  width: 250px;
+  display: - webkit-inline-box;
+  height: 350px;
+  visibility: visible;
+  position: absolute;
+}
+.Fly-higher{
+  font-family: "Myriad Pro";
+  position: absolute;
+  top: 140px;
+  margin-left: 50px;
+  color: white;
+  font-size: 35px;
+}
+.img-generation{
+  width: 45%;
+  height: 350px;
+}
+.box{
+  background: black;
+  width: 55%;
+  display: - webkit-inline-box;
+  height: 350px;
+  visibility: visible;
+  position: absolute;
+}
+
+.New-generation {
+  position: absolute;
+  color: white;
+  margin-top: 10%;
+  font-family: "Myriad Pro";
+  margin-left: 10%;
+  width: 55%;
+  font-size: 50px;
+}
+.red{
+  color: #FF0000;
+}
+.New-generationII{
+  color: black;
+  margin-top: 10%;
+  font-family: "Myriad Pro";
+  margin-left: 10%;
+  width: 30%;
+  margin-bottom: 20%;
+  font-size: 50px;
+}
+.img-drone{
+  width: 40%;
+  margin-left: 55%;
+  position: absolute;
+}
+.lamer{
+  width: 100%;
+  position: absolute;
+  height: 500px;
+  padding-top: 20px;
+}
+.ico-justi{
+  padding-top: 120px;
+  text-align: justify;
+}
+.flex-container {
+  display: flex; /* I now declare this as a flex-container */
+  /* This is the Chrome notation */
+}
+
+.flex-item {
+  flex: 1;
+  -webkit-flex: 1;
+  font-family:"Myriad Pro";;
+}
+.footer{
+  display: -webkit-flex;
+  justify-content: center;
+}
+
+$brand-primary:           #32CCAA;
+$brand-secondary:         #A1A2A4;
+$font-stack:              "Open Sans", Helvetica, Arial, sans-serif;
+
+
+
+.btn {
+  @include border-radius(10px);
+  @include transition(all 0.3s ease-in-out);
+  cursor: pointer;
+  display: inline-block;
+  font-family: $font-stack;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 10px 30px;
+  text-align: center;
+  position: absolute;
+  border-radius: 40px;
+}
+.btn-generation {
+  @include border-radius(10px);
+  @include transition(all 0.3s ease-in-out);
+  cursor: pointer;
+  display: inline-block;
+  font-family: $font-stack;
+  font-size: 16px;
+  border: 1px solid white;
+  line-height: 28px;
+  padding: 10px 30px;
+  text-align: center;
+  position: absolute;
+  border-radius: 40px;
+  color: white !important;
+}
+.btn-generationII {
+  @include border-radius(10px);
+  @include transition(all 0.3s ease-in-out);
+  cursor: pointer;
+  display: inline-block;
+  font-family: $font-stack;
+  font-size: 16px;
+  border: 1px solid black;
+  line-height: 28px;
+  padding: 10px 30px;
+  text-align: center;
+  position: absolute;
+  border-radius: 40px;
+  color: black !important;
+}
+
+.btn-text {
+  color: #ffffff;
+  text-decoration: none;
+}
+@mixin btn-background($btn-background) {
+  @extend .btn;
+  background-color: $btn-background;
+  &:hover, &:active { background-color: darken($btn-background, 5); }
+  a { @extend .btn-text; }
+}
+
+.btn-primary {
+  @include btn-background($brand-primary);
+}
+
+.btn-secondary {
+  @include btn-background($brand-secondary);
+  color: white !important;
+  position: absolute;
+  border-radius: 40px;
+  border: 1px solid white;
+}
+.circle{
+  @include translate(0%,50%,-50%,-50%);
+  position:absolute;
+  z-index: 1;
+  border-radius: 100%;
+  height: 452px;
+  width: 452px;
+  background-color: #eff2f6;
+  img{
+    @include translate(50%,50%,-50%,-50%);
+    position:absolute;
+    z-index: 2;
+  }
+}
+#top{
+   width: 100%;
+   height: 115vh;
+   @include display-flex-ac(row,wrap,center,center);
+   .top-left{
+     @include display-flex-ac(column,wrap,center,center);
+     width: 60%;
+     height: 115vh;
+     background-color: #eff2f6;
+     div{
+       @include display-flex-ac(inherit,wrap,center,center);
+       height: 115vh;
+     }
+   }
+ }
+
+.top-right{
+  position:relative;
+  width: 40%;
+  height: 115vh;
+  background-color: #ff343d;
+}
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+::selection {
+  background: #000;
+  color: #aaf;
+}
+.alternate ::selection {
+  background: #c00;
+  color: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul, li, h1, h2, h3, h4, h5, h6, p, a, .logo {
+  font-family: "Lato","Verdana",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.inner {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+  margin-right: 0;
+  margin-left: 300px;
+  margin-top: -60px;
+
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 50px;
+  background:  rgba(218, 216, 216, 0.21);
+  transition: 0.7s all;
+  z-index: 100;
+}
+
+header.alt-header {
+  background: #fff;
+}
+
+.alt-header a {
+  color: #000;
+}
+
+
+li {
+  list-style: none;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 25px;
+  transition: 0.3s all;
+}
+
+nav a:hover {
+  background: red;
+}
+
+.logo {
+  float: left;
+  color: black;
+  font-size: 20px;
+  line-height: 50px;
+  transition: 0.7s all;
+  margin-top: 10px;
+}
+
+.alt-header .logo {
+  color: #000;
+}
+
+body.header-fixed .logo {
+  font-size: 30px;
+}
+
+.alternate {
+  background: #000;
+  color: #fff;
+}
+
+section .inner {
+  padding-top: 200px;
+}
+
